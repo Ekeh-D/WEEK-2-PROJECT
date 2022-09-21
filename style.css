@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+  box-sizing: border-box;
+}
+button{
+  cursor: pointer;
+}
+
+/* -----------------the styling of the body tag--------------------  */
+
+.body {
+  width: 100%;
+  height: 100vh;
+  background: url(restaurant\ 1.png) no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* -----------------the styling of content class selector--------------------  */
+
+.contents {
+  color: #fff;
+}
+
+/* -----------------the styling of the h2 tag--------------------  */
+
+.contents h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 75px;
+  margin-bottom: 50px;
+}
+
+/* -----------------the styling of the span tag--------------------  */
+
+.contents h2 span {
+  font-weight: 1000;
+}
+
+/* -----------------the styling of the p tag--------------------  */
+
+.contents p {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 31px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* -----------------the styling of the left class.selector--------------------  */
+
+.left {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  cursor: pointer;
+}
+
+/* -----------------the styling of the right class.selector--------------------  */
+
+.right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  cursor: pointer;
+}
+
+/* -----------------the styling of the button tag--------------------  */
+
+.contents button {
+  width: 250px;
+  height: 80px;
+  background-color: #fff;
+  color: #000;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 37.65px;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 1px solid #fff;
+  margin: 10px 20px 0 0;
+}
+
+
+/* -------------------------This is the stylesheet for the menu html page-----------------           */
+
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background: #e5e5e5;
+  padding: 30px 10%;
+  align-items: center;
+  justify-content: center;
+  animation: appear 0.9s 1s;
+}
+
+/* ------------------animation for the container tag------------------ */
+
+@keyframes appear {
+  0%{transform: translateY(-2000px);opacity: 0;}
+  100%{transform: translateY(0);opacity: 1;}
+  
+}
+/* -------------------------This is the navigations styling of the menu html page-----------------           */
+
+.navigations {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0c0b0b;
+  border-radius: 24px;
+  position: relative;
+  top: 0;
+  right: 50px;
+  box-shadow: 10px 11px 15px -7px #000000bf;
+}
+
+/* -------------------------This is the navigations ul styling of the menu html page-----------------           */
+
+.navigations ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* -------------------------This is the navigations ul styling for the menu html page-----------------           */
+
+.navigations ul li {
+  list-style: none;
+}
+
+/* -------------------------This is the navigation ul li styling for the menu html page-----------------           */
+
+.navigations li {
+  cursor: pointer;
+  width: 100%;
+  padding: 35px 25px;
+  transition: 0.3s;
+}
+
+/* -------------------------This is the hover styling for the navigation class -----------------           */
+
+.navigations li:hover {
+  border-radius: 10px;
+  background: #f1d5bb;
+  transform: translateY(2px);
+}
+
+/* -------------------------This is the styling for the plate class -----------------           */
+
+.plate {
+  background: #f1d5bb;
+}
+
+/* -------------------------This is the styling for the menuitems class -----------------           */
+
+.menuitems {
+  flex-basis: 50%;
+}
+
+/* -------------------------This is the styling for the menuitems hi class-----------------           */
+
+.menuitems h1 {
+  margin: 10px 0;
+  position: relative;
+}
+
+/* -------------------------This is hover styling  for the menuitems class-----------------           */
+
+.menuitems h1::after {
+  content: "";
+  width: 20%;
+  height: 5px;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  background: #f1d5bb;
+}
+
+/* -------------------------This is the menubutton styling -----------------           */
+
+.menuitems button {
+  position: relative;
+  top: 0;
+  left: 35%;
+  margin: 20px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  width: 194px;
+  height: 54px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* -------------------------This is the styling for the top class -----------------           */
+
+.top {
+  display: flex;
+}
+
+/* -------------------------This is the styling for the img  -----------------           */
+
+.top img {
+  margin-right: 20px;
+}
+
+/* -------------------------This is the styling for the figcaption tag -----------------           */
+
+figcaption {
+  text-align: center;
+}
+
+/* -------------------------This is the styling for the down tag -----------------           */
+
+.down {
+  display: flex;
+}
+
+/* -------------------------This is the styling for the down img tag-----------------           */
+
+.down img {
+  margin-right: 20px;
+}
+
+/* -------------------------This is the styling for the pictues img class-----------------           */
+
+.pictures img {
+  cursor: pointer;
+  transition: 1s;
+}
+
+/* -------------------------This is the styling for the pictures img class-----------------           */
+
+.pictures img:hover {
+  filter: grayscale(5);
+  transform: translateY(6px);
+}
+
+
+
+/* -------------------------This is the stylesheet for the cart html page-----------------           */
+
+
+
+.contain {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background: #e5e5e5;
+  padding: 30px 10%;
+  align-items: center;
+  justify-content: center;
+}
+
+/* -------------------------This is the styling for the items hi tag-----------------           */
+
+.items h1 {
+  margin: 10px 0;
+  position: relative;
+}
+
+/* -------------------------This is the after psudo class for the items h1-----------------           */
+
+.items h1::after {
+  content: "";
+  width: 20%;
+  height: 5px;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  background: #f1d5bb;
+}
+
+/* -------------------------This is the styling for the cartc class -----------------           */
+
+.cartc {
+  width: 608px;
+  height: 608px;
+  padding: 20px 7%;
+  background: #f1d5bb;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* -------------------------This is the stying for the cartc img class-----------------           */
+
+.cartc img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+/* -------------------------This is the styling for the cartc p tag-----------------           */
+
+.cartc p {
+  margin-top: 20%;
+}
+
+/* -------------------------This is the styling for the itemss class -----------------           */
+
+.itemss {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* -------------------------This is the styling for the itemss  p class -----------------           */
+
+.itemss p {
+  text-align: center;
+  position: relative;
+  top: -55px;
+}
+
+/* -------------------------This is the styling for the itemss input class -----------------           */
+
+.itemss input {
+  padding: 0 20px;
+  width: 46px;
+  height: 35px;
+  outline: none;
+}
+
+/* ------------------------This is the styling for the imgg class -----------------           */
+
+.imgg{
+  max-width: 20px;
+  max-height: 20px;
+}
+
+/* -------------------------This is the styling for the total class -----------------           */
+
+.total {
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+/* -------------------------This is the styling for the subtotal class -----------------           */
+
+.subtotal {
+  width: 443px;
+  height: 286px;
+  background: #f1d5bb;
+  padding: 20px 7%;
+}
+
+/* -------------------------This is the styling for the subtotal h1 class-----------------           */
+
+.subtotal h1 {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+/* -------------------------This is the styling for the subtotal p class-----------------           */
+
+.subtotal p {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+}
+
+/* -------------------------This is the styling for the subtotal span class-----------------           */
+
+.subtotal span {
+  margin-left: 30px;
+}
+
+/* -------------------------This is the styling for the subtotal button tag-----------------           */
+
+.subtotal button {
+  width: 365px;
+  height: 78px;
+  background: #000;
+  color: #fff;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+}
+
+/* -------------------------This is the stylesheet for the code class -----------------           */
+
+.code {
+  width: 443px;
+  height: 326px;
+  background: #e5e5e5;
+  border: 1px solid #f1d5bb;
+  padding: 20px 7%;
+}
+
+/* -------------------------This is the stylesheet for the code h1 tag -----------------           */
+
+.code h1 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+
+/* -------------------------This is the stylesheet for the code input tag-----------------           */
+
+.code input {
+  width: 365px;
+  height: 78px;
+  background: #ffffff;
+  border: 1px solid #f1d5bb;
+  padding: 0 10px;
+  margin-bottom: 30px;
+}
+
+/* -------------------------This is the stylesheet for the code button tag-----------------           */
+
+.code button {
+  width: 166px;
+  height: 78px;
+  background: #000000;
+  color: #fff;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+}
